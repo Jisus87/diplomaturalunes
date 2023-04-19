@@ -7,13 +7,20 @@ h1{
 h2{
     color: red;
     text-align: justify;
-    font-size: 35px;
+    width: 800px;
+    font-size: 45px;
+    box-shadow: 5px 6px 11px 1px rgba(68,63,63,0.75);
+    -webkit-box-shadow: 5px 6px 11px 1px rgba(68,63,63,0.75);
+    -moz-box-shadow: 5px 6px 11px 1px rgba(68,63,63,0.75);
 }
 li{
+    
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 25px;
 }
 ul{
+    column-count: 2;
+    column-gap: 100px; 
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
 }
@@ -26,8 +33,14 @@ img{
     margin: 5px;
     border-color: rgb(0, 162, 255); 
     border-style: solid;
-    background-color: rgb(215, 243, 243);
+    background: #0044ff;
+    background: radial-gradient(circle farthest-side at center center, #0044ff 0%, rgba(74,239,227,0.91) 70%);
+    background: -webkit-radial-gradient(circle farthest-side at center center, #0044ff 0%, rgba(74,239,227,0.91) 70%);
+    background: -moz-radial-gradient(circle farthest-side at center center, #0044ff 0%, rgba(74,239,227,0.91) 70%);
     padding: 15px;
+    border-radius: 10px 11px 10px 10px;
+    -webkit-border-radius: 10px 11px 10px 10px;
+    -moz-border-radius: 10px 11px 10px 10px;
 
 
 }
