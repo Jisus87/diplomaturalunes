@@ -1,0 +1,10 @@
+.container-sm{
+    font-size: 30px;
+    text-align: center;
+}
+.container-fluid{
+    font-size: 35px;
+    text-align: center;
+    height: 75px;
+    padding: 0%;
+}
