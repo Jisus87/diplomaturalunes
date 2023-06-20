@@ -1,0 +1,75 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+header {
+    background-color:aqua;
+    padding: 16px 0;
+}
+
+header h1 {
+    color: blue;
+    font-size: 30px;
+    font-weight: 100;
+    font-style: italic;
+    display: inline-block;
+
+
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: skyblue;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+
+}
+
+nav ul li a:hover{
+    background-color: gold;
+}
+
+nav ul li a.activo{
+    background-color:darkcyan;
+
+}
+footer {
+    background-color: aquamarine;
+}
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.bienvenidos {
+    width: 50%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.testimonios {
+    width: 50%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.columnas{
+    display: flex;
+    justify-content: space-between;
+}

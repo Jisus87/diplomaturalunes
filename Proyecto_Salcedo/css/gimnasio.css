@@ -1,0 +1,160 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+header {
+    background-color:skyblue;
+    padding: 16px 0;
+}
+
+header h1 {
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: italic;
+    font-style: bold;
+    display: inline-block;
+}
+
+
+h2{
+
+color:midnightblue;
+font-weight: 400;
+
+}
+
+main div img{
+    /*height: 1200px;*/
+    width: 100%;
+
+}
+
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+}
+
+nav ul li {
+    flex-grow: 1;
+}
+
+nav ul li a {
+    color: blue;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+
+}
+
+nav ul li a:hover{
+    background-color:darkblue;
+    color: white;
+}
+
+nav ul li a.activo{
+    background-color: cyan;
+
+}
+footer {
+    background-color: aquamarine;
+}
+
+/*.holder{
+    max-width: 1860px;
+    margin: 0 auto;
+}
+*/
+
+.bienvenidos {
+    width: 50%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.testimonios {
+    width: 50%;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+.columnas{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bienvenidos p{
+    font-size: 20px;
+}
+
+.textimonio{
+    background-color: aquamarine;
+    padding: 16px;
+}
+
+.testimonio .cita{
+    font-weight: bold;
+    background-color:lavender;
+    font-style: italic;
+    font-size: 22px;
+    display: block;
+}
+
+.testimonio .autor{
+    font-size: 10px;
+    text-align: left;
+    display: block;
+    margin: 12px 0;
+}
+
+.personas {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.persona {
+    border: 1px solid wheat;
+    border-radius: 5px;
+    width: 22%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    background-color: cyan;
+
+
+}
+.persona img{
+    border-radius: 50%;
+    max-width: 60%;
+    box-shadow: 0 0 5px black;
+}
+
+.persona h5,
+.persona h6 {
+    margin:0 ;
+    font-weight: normal;
+    color: #2e64a1;
+}
+
+.persona h5{
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.persona h6{
+    font-size: 11px;
+    font-style: italic;
+}
+
+.persona p{
+    color: #666;
+    font-size: 10px;
+}
