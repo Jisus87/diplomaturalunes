@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+</head>
+
+<body>
+    <script>
+        const num1 = parseInt(prompt('Ingrese primer número:', ''));
+        const num2 = parseInt(prompt('Ingrese segundo número:', ''));
+        const num3 = parseInt(prompt('Ingrese tercer número:', ''));
+        const num4 = parseInt(prompt('Ingrese cuarto número:', ''));
+      
+        const num = [num1, num2, num3, num4];
+
+		if (num1 > num2 && num1 > num3 && num1 > num4) {
+            document.write(`El número mayor de los números ingresados:${num} es el  ${num1}`);
+        } else if (num2 > num3 && num2 > num4) {
+            document.write(`El número mayor de los números ingresados:${num} es el  ${num2}`);
+        } else if (num3 > num4) {
+            document.write(`El número mayor de los números ingresados:${num} es el  ${num3}`);
+        } else {
+            document.write(`El número mayor de los números ingresados:${num} es el  ${num4}`);
+        }
+
+
+    </script>
+
+</body>
+
+</html>
