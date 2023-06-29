@@ -1,0 +1,27 @@
+      
+button {
+    width: 120px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 0cm;
+}
+
+#rojo {
+    background-color: red;
+}
+
+#amarillo {
+    background-color: yellow;
+}
+
+#verde {
+    background-color: green;
+}
+
+body {
+    background-color: white;
+}
+
+body.cuadrado.rojo {
+    background-color: red;
+}

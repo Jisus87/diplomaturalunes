@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="ejercicio 01.css">
+</head>
+<body id="cuerpo">
+   
+        <button id="rojo"></button>
+        <button id="amarillo"></button>
+        <button id="verde"></button>
+        
+  
+    <script>
+        const fondo = document.getElementById('cuerpo');
+        const rojo = document.getElementById('rojo');
+        const amarillo = document.getElementById('amarillo');
+        const verde= document.getElementById('verde');   
+                      
+        rojo.addEventListener('click', function () {
+            fondo.style = 'background: red';
+        });
+
+        
+        amarillo.addEventListener('click', function () {
+            fondo.style = 'background: yellow';
+        });
+
+        verde.addEventListener('click', function () {
+            fondo.style = 'background: green';
+        });
+
+
+    </script>
+</body>
+</html>
